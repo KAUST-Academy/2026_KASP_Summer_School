@@ -1,7 +1,7 @@
 # KASP — Summer AI Training 2026
 *Designed by the KAUST Academy*
 
-A static course website with lectures and labs for the KAUST Academy Summer Program
+A static course website with lectures and labs for the KAUST Academy AI Specializations Summer Program
 (KASP) AI Training. Content is organised into one page per day, grouped by week. Each
 day links to its lecture slides (`Week*/Day*/Lecture/`) and to its labs and
 exercises (`Week*/Day*/Labs/`), which open directly in Google Colab.
@@ -19,14 +19,18 @@ The site is fully responsive and works on desktop and mobile.
 index.html                  # Home — hero + Week 1 + Extra Content
 pages/Week1/                # day pages, grouped by week
   w1d1.html … w1d5.html     #   one page per day (Week 1)
-  extras.html               #   Week 1 Extra Content — fill-in table
+  extras.html               #   Week 1 Extra Content page
 assets/                     # Bootstrap, icons, AOS, CSS and JS
-Extras/                     # drop-in folder for any extra shared files
-Week1/                      # course content: Lecture/ (PDF) + Labs/ (.ipynb)
+Week1/                      # course content for the week
+  Day*/Lecture/             #   lecture slides (PDF)
+  Day*/Labs/                #   labs and exercises (.ipynb)
+  Extras/                   #   extra shared files for the week (e.g. intro slides)
 ```
 
-Each week's pages live under `pages/Week<N>/`; add `pages/Week2/`, etc. as new
-weeks are published, each with its own day pages and an `extras.html`.
+Each week's pages live under `pages/Week<N>/` and its content under `Week<N>/`
+(with a `Week<N>/Extras/` folder for supplementary files). Add `pages/Week2/`,
+`Week2/`, etc. as new weeks are published — each with its day pages, an
+`extras.html`, and an `Extras/` folder.
 
 Colab links point to this repository on the `main` branch:
 `https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/…`
@@ -43,7 +47,7 @@ video understanding.
 1. **Convolutional Neural Networks (recap)** — CNN fundamentals; CIFAR-10 classifier; CNN from scratch on Fashion-MNIST.
 2. **Sequential Models — RNNs, LSTM & Attention** — RNN/LSTM image captioning; attention-based (Transformer) image captioning.
 3. **Transformers** — Vision-language models (VLLM); Segment Anything 3.
-4. **Vision Transformers (+DETR)** — ViT fine-tuning; Faster R-CNN object detection.
+4. **Vision Transformers** — ViT fine-tuning.
 5. **Video Handling** — Video classification with CNNs.
 
 ## Coming soon
