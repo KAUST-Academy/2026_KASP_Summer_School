@@ -16,34 +16,7 @@
 
 <body>
 
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <div class="logo">
-        <a href="../../index.html">
-          <img src="../../assets/img/kaust-academy-logo.png" alt="KAUST Academy">
-        </a>
-      </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="" href="../../index.html">Home</a></li>
-          <li class="dropdown"><a class="active" href="../../index.html#week1"><span>Week 1</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
-            <ul>
-              <li><a class="" href="w1d1.html">Day 1: Convolutional Neural Networks</a></li>
-              <li><a class="" href="w1d2.html">Day 2: Sequential Models — RNNs, LSTM &amp; Attention</a></li>
-              <li><a class="" href="w1d3.html">Day 3: Transformers</a></li>
-              <li><a class="" href="w1d4.html">Day 4: Vision Transformers</a></li>
-              <li><a class="" href="w1d5.html">Day 5: Video Handling</a></li>
-              <li><a class="active" href="extras.html">Extra</a></li>
-            </ul>
-          </li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-
-    </div>
-  </header>
+  <div id="site-header"></div>
 
   <main id="main">
     <!-- Breadcrumbs -->
@@ -85,28 +58,20 @@
               <td>Course introduction slides for the KAUST Academy AI Specializations Summer Program at KKU, 2026.</td>
               <td class="text-center"><a href="../../Week1/Extras/Introduction%20-%20SS%20KKU%202026.pdf" class="table-btn" target="_blank" rel="noopener">PDF</a></td>
             </tr>
+            <tr>
+              <td><strong>The Art of Training Deep Neural Networks</strong></td>
+              <td>Practical guidance on training deep neural networks effectively — optimization, regularization, and tuning.</td>
+              <td class="text-center"><a href="../../Week1/Extras/The%20Art%20of%20Training%20Deep%20Neural%20Networks%20-%20SS%2026.pdf" class="table-btn" target="_blank" rel="noopener">PDF</a></td>
+            </tr>
           </tbody>
         </table>
       </div>
     </div>
   </main>
 
-  <footer id="footer">
-    <div class="container d-md-flex py-4">
-      <div class="me-md-auto text-center w-100">
-        <div class="copyright">
-          &copy; Copyright <strong><span>KAUST Academy</span></strong>. All Rights Reserved
-        </div>
-        <div class="license" style="font-size: 13px; margin-top: 8px; color: #555;">
-          Recording and uploading lectures online is not permitted.
-        </div>
-        <div class="credits" style="font-size: 14px; margin-top: 5px; color: #555;">
-          Website created by <strong>Ali Habibullah</strong>.
-        </div>
-      </div>
-    </div>
-  </footer>
+  <div id="site-footer"></div>
 
+  <script src="../../assets/js/layout.js"></script>
   <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../../assets/vendor/aos/aos.js"></script>
   <script src="../../assets/js/main.js"></script>
