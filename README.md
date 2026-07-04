@@ -8,29 +8,30 @@ exercises (`Week*/Day*/Labs/`), which open directly in Google Colab.
 
 The site is fully responsive and works on desktop and mobile.
 
-> **Status:** Week 1 only is published for now. Week 2 and the remaining weeks
-> will be added later.
+> **Status:** Weeks 1–2 are published. The remaining weeks will be added later.
 
 ---
 
 ## Structure
 
 ```
-index.html                  # Home — hero + Week 1 + Extra Content
-pages/Week1/                # day pages, grouped by week
-  w1d1.html … w1d5.html     #   one page per day (Week 1)
-  extras.html               #   Week 1 Extra Content page
+index.html                  # Home — hero + one section per week
+pages/Week1/ pages/Week2/    # day pages, grouped by week
+  w1d1.html … w1d5.html     #   one page per day
+  extras.html               #   that week's Extra Content page
 assets/                     # Bootstrap, icons, AOS, CSS and JS
-Week1/                      # course content for the week
+  js/layout.js              #   shared header/nav + footer (edit nav here)
+Week1/ Week2/                # course content for each week
   Day*/Lecture/             #   lecture slides (PDF)
   Day*/Labs/                #   labs and exercises (.ipynb)
-  Extras/                   #   extra shared files for the week (e.g. intro slides)
+  Extras/                   #   extra shared files for the week
 ```
 
-Each week's pages live under `pages/Week<N>/` and its content under `Week<N>/`
-(with a `Week<N>/Extras/` folder for supplementary files). Add `pages/Week2/`,
-`Week2/`, etc. as new weeks are published — each with its day pages, an
-`extras.html`, and an `Extras/` folder.
+The navigation is defined once in `assets/js/layout.js` (the `weeks` array) and
+injected into every page's `<div id="site-header">` / `<div id="site-footer">`
+slots — adding a day or a whole week is a single edit there. Each week's pages
+live under `pages/Week<N>/` and its content under `Week<N>/` (with a
+`Week<N>/Extras/` folder for supplementary files).
 
 Colab links point to this repository on the `main` branch:
 `https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/…`
@@ -50,8 +51,19 @@ video understanding.
 4. **Vision Transformers** — ViT fine-tuning.
 5. **Video Handling** — Video classification with CNNs.
 
+## Week 2 — Computer Vision 2
+*Sun 5 July – Thu 9 July 2026 · Instructor: Muhammad Mubashar*
+
+Representation learning and self-supervision, building up to world models and
+foundation models.
+
+6. **Representation Learning — SSL** — Self-supervised learning demos; image search with EfficientNetV2 embeddings.
+7. **Contrastive Learning** — Contrastive self-supervised representation learning with SimCLR.
+8. **Advanced SSL & JEPA** — Joint-embedding predictive architectures (I-JEPA / V-JEPA).
+9. **World Models** — DreamerV3 / RSSM-style world models.
+10. **Foundation Models** — Grounding DINO, Depth Anything, and other foundation models; Segment Anything 3.
+
 ## Coming soon
-- **Week 2 — Computer Vision 2** — Representation learning (SSL), contrastive learning, advanced SSL & JEPA, world models, foundation models.
 - **Week 3 onward** — to be added.
 
 ---

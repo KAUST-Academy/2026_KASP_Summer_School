@@ -27,24 +27,40 @@
         { label: "Extra", href: "pages/Week1/extras.html" },
       ],
     },
+    {
+      id: "week2",
+      label: "Week 2",
+      pages: [
+        { label: "Day 6: Representation Learning — SSL", href: "pages/Week2/w2d6.html" },
+        { label: "Day 7: Contrastive Learning", href: "pages/Week2/w2d7.html" },
+        { label: "Day 8: Advanced SSL &amp; JEPA", href: "pages/Week2/w2d8.html" },
+        { label: "Day 9: World Models", href: "pages/Week2/w2d9.html" },
+        { label: "Day 10: Foundation Models", href: "pages/Week2/w2d10.html" },
+        { label: "Extra", href: "pages/Week2/extras.html" },
+      ],
+    },
   ];
   // ---------------------------------------------------------------------------
 
   // Prefix to get back to the site root. Pages under /pages/ sit two levels deep.
   const root = location.pathname.includes("/pages/") ? "../../" : "";
 
-  // Current page filename (treat a directory URL as index.html).
-  const current = location.pathname.split("/").pop() || "index.html";
-  const fileOf = (href) => href.split("#")[0].split("/").pop();
+  // Normalized current path (treat a directory URL as index.html). We match on the
+  // full root-relative href suffix so pages that share a filename across weeks
+  // (e.g. every week's extras.html) don't all light up as active.
+  const norm = location.pathname.endsWith("/")
+    ? location.pathname + "index.html"
+    : location.pathname;
+  const isCurrent = (href) => norm.endsWith("/" + href.split("#")[0]);
 
-  const onHome = current === "index.html";
+  const onHome = isCurrent("index.html");
 
   const weeksMarkup = weeks
     .map((week) => {
-      const weekActive = week.pages.some((p) => fileOf(p.href) === current) ? "active" : "";
+      const weekActive = week.pages.some((p) => isCurrent(p.href)) ? "active" : "";
       const items = week.pages
         .map((p) => {
-          const active = fileOf(p.href) === current ? "active" : "";
+          const active = isCurrent(p.href) ? "active" : "";
           return `<li><a class="${active}" href="${root}${p.href}">${p.label}</a></li>`;
         })
         .join("\n              ");
