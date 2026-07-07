@@ -60,8 +60,8 @@ foundation models.
 6. **Representation Learning — SSL** — Self-supervised learning demos; image search with EfficientNetV2 embeddings.
 7. **Contrastive Learning** — Contrastive self-supervised representation learning with SimCLR.
 8. **Advanced SSL & JEPA** — Joint-embedding predictive architectures (I-JEPA / V-JEPA).
-9. **World Models** — DreamerV3 / RSSM-style world models.
-10. **Foundation Models** — Grounding DINO, Depth Anything, and other foundation models; Segment Anything 3.
+9. **Foundation Models** — Grounding DINO, Depth Anything, and other foundation models; Segment Anything 3.
+10. **World Models** — DreamerV3 / RSSM-style world models.
 
 ## Coming soon
 - **Week 3 onward** — to be added.
