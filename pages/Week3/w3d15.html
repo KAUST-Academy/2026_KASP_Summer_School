@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Week 3 Day 15 — Stable Diffusion</title>
+  <title>Week 3 Day 15 — Normalizing Flows</title>
 
   <!-- CSS Files -->
   <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,8 +23,8 @@
     <div class="breadcrumbs animate-up">
       <div class="container">
         <span class="crumb-tag">Week 3 &middot; Day 15 &middot; 16 July</span>
-        <h2>Stable Diffusion</h2>
-        <p>Latent diffusion at scale — the U-Net, CLIP text conditioning, classifier-free guidance, customization, and the SD lineage.</p>
+        <h2>Normalizing Flow Models</h2>
+        <p>Exact-likelihood generative models — change of variables, coupling layers, NICE, RealNVP, Glow, and flow matching.</p>
       </div>
     </div>
 
@@ -41,14 +41,19 @@
           </thead>
           <tbody>
             <tr>
-              <td><strong>Stable Diffusion</strong></td>
-              <td>Latent diffusion, cross-attention, classifier-free guidance and samplers, DreamBooth/LoRA/ControlNet, SDXL and SD 3</td>
-              <td class="text-center"><a href="../../Week3/Day15_16-07_Stable_Diffusion/Lecture/16_Stable_Diffusion.pdf" class="table-btn" target="_blank" rel="noopener">Slides</a></td>
+              <td><strong>Normalizing Flows</strong></td>
+              <td>Change of variables, invertible layers, NICE / RealNVP / Glow, and flow matching as the current state of the art</td>
+              <td class="text-center"><a href="../../Week3/Day15_16-07_Normalizing_Flows/Lecture/12_Normalizing_Flow_Models.pdf" class="table-btn" target="_blank" rel="noopener">Slides</a></td>
             </tr>
             <tr>
-              <td><strong>Lab: Latent diffusion &amp; CFG</strong></td>
-              <td>Run Stable Diffusion components and explore classifier-free guidance</td>
-              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week3/Day15_16-07_Stable_Diffusion/Labs/Stable_Diffusion_Latent_Diffusion_Models_Classifer_Free_Guidance.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+              <td><strong>Lab: Normalizing flows</strong></td>
+              <td>Train a flow on autoencoder latents and sample from it</td>
+              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week3/Day15_16-07_Normalizing_Flows/Labs/Normalizing_Flow_With_AutoEncoder.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+            </tr>
+            <tr>
+              <td><strong>Extra Lab: Flows on pets</strong></td>
+              <td>The same flow recipe applied to a pets dataset</td>
+              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week3/Day15_16-07_Normalizing_Flows/Labs/Normalizing_Flow_With_AutoEncoder_pets.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
             </tr>
           </tbody>
         </table>

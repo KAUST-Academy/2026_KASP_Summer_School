@@ -8,7 +8,7 @@ exercises (`Week*/Day*/Labs/`), which open directly in Google Colab.
 
 The site is fully responsive and works on desktop and mobile.
 
-> **Status:** Weeks 1–2 are published. The remaining weeks will be added later.
+> **Status:** Weeks 1–3 are published. The remaining weeks will be added later.
 
 ---
 
@@ -63,8 +63,20 @@ foundation models.
 9. **Foundation Models** — Grounding DINO, Depth Anything, and other foundation models; Segment Anything 3.
 10. **World Models** — DreamerV3 / RSSM-style world models.
 
+## Week 3 — Generative Modeling
+*Sun 12 July – Thu 16 July 2026 · Instructor: Muhammad Mubashar*
+
+The generative modeling arc — autoencoders and VAEs, GANs, diffusion, Stable
+Diffusion, and normalizing flows.
+
+11. **Autoencoders & VAEs** — The latent space, KL divergence, and VQ-VAE; autoencoder on MNIST and VAE on anime faces.
+12. **GANs** — Adversarial training and the major variants; GAN on anime faces; conditional GANs on faces.
+13. **Diffusion Models** — Denoising diffusion, training and sampling; DDPM on anime faces; score-based diffusion.
+14. **Stable Diffusion** — Latent diffusion and classifier-free guidance; running Stable Diffusion components.
+15. **Normalizing Flows** — Change of variables, RealNVP / Glow, and flow matching; flows on autoencoder latents.
+
 ## Coming soon
-- **Week 3 onward** — to be added.
+- **Week 4 onward** — to be added.
 
 ---
 
