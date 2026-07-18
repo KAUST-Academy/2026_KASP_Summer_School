@@ -51,6 +51,18 @@
         { label: "Extra", href: "pages/Week3/extras.html" },
       ],
     },
+    {
+      id: "week4",
+      label: "Week 4",
+      pages: [
+        { label: "Day 16: Reinforcement Learning Foundations", href: "pages/Week4/w4d16.html" },
+        { label: "Day 17: Value-Based Methods", href: "pages/Week4/w4d17.html" },
+        { label: "Day 18: Vanilla Policy Gradient", href: "pages/Week4/w4d18.html" },
+        { label: "Day 19: Policy Optimization", href: "pages/Week4/w4d19.html" },
+        { label: "Day 20: Continuous Control 1", href: "pages/Week4/w4d20.html" },
+        { label: "Extra", href: "pages/Week4/extras.html" },
+      ],
+    },
   ];
   // ---------------------------------------------------------------------------
 

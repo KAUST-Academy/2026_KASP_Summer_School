@@ -8,7 +8,7 @@ exercises (`Week*/Day*/Labs/`), which open directly in Google Colab.
 
 The site is fully responsive and works on desktop and mobile.
 
-> **Status:** Weeks 1–3 are published. The remaining weeks will be added later.
+> **Status:** Weeks 1–4 are published. The remaining weeks will be added later.
 
 ---
 
@@ -75,8 +75,20 @@ Diffusion, and normalizing flows.
 14. **Stable Diffusion** — Latent diffusion and classifier-free guidance; running Stable Diffusion components.
 15. **Normalizing Flows** — Change of variables, RealNVP / Glow, and flow matching; flows on autoencoder latents.
 
+## Week 4 — Reinforcement Learning
+*Sun 19 July – Thu 23 July 2026 · Instructor: Abdallah Hammad*
+
+The first week of reinforcement learning — from the MDP foundations through
+value-based methods and policy gradients to continuous control.
+
+16. **Reinforcement Learning Foundations** — MDPs, returns, value functions, and exploration vs exploitation; tabular Q-learning and an RL-with-policies demo.
+17. **Value-Based Methods** — TD learning, SARSA vs Q-learning, and Deep Q-Networks; DQN and SARSA labs.
+18. **Vanilla Policy Gradient** — the policy gradient theorem and REINFORCE.
+19. **Policy Optimization** — actor-critic methods, PPO, and GRPO; actor-critic, PPO, and GRPO (Flappy Bird) labs.
+20. **Continuous Control 1** — reinforcement learning in continuous action spaces with DDPG.
+
 ## Coming soon
-- **Week 4 onward** — to be added.
+- **Week 5 onward** — to be added.
 
 ---
 
