@@ -60,6 +60,7 @@
         { label: "Day 18: Vanilla Policy Gradient", href: "pages/Week4/w4d18.html" },
         { label: "Day 19: Policy Optimization", href: "pages/Week4/w4d19.html" },
         { label: "Day 20: Continuous Control 1", href: "pages/Week4/w4d20.html" },
+        { label: "Afternoon Sessions: Building Reliable Agents", href: "pages/Week4/afternoon.html" },
         { label: "Extra", href: "pages/Week4/extras.html" },
       ],
     },
