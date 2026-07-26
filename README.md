@@ -8,7 +8,7 @@ exercises (`Week*/Day*/Labs/`), which open directly in Google Colab.
 
 The site is fully responsive and works on desktop and mobile.
 
-> **Status:** Weeks 1–4 are published. The remaining weeks will be added later.
+> **Status:** Weeks 1–5 are published. The remaining weeks will be added later.
 
 ---
 
@@ -87,8 +87,20 @@ value-based methods and policy gradients to continuous control.
 19. **Policy Optimization** — actor-critic methods, PPO, and GRPO; actor-critic, PPO, and GRPO (Flappy Bird) labs.
 20. **Continuous Control 1** — reinforcement learning in continuous action spaces with DDPG.
 
+## Week 5 — Reinforcement Learning 2
+*Sun 26 July – Thu 30 July 2026 · Instructor: Abdallah Hammad*
+
+The second week of reinforcement learning — maximum entropy methods, the reward
+problem, model-based and offline RL, real-world deployment, and the open frontiers.
+
+21. **Continuous Control 2 — Max Entropy RL & SAC** — the entropy bonus, soft policy iteration, Soft Actor-Critic and automatic temperature tuning; SAC from scratch on Pendulum.
+22. **The Reward Problem** — exploration vs exploitation, bandits and regret, UCB and Thompson sampling, deep exploration (RND), and inverse RL; bandits, RND, and MaxEnt IRL labs.
+23. **Model-Based & Offline RL** — learning a dynamics model, planning with CEM/MPC, and offline RL with conservatism; CEM-MPC and CQL labs.
+24. **RL in the Real World** — RLHF, RLAIF and RLVR, plus multi-agent RL and robotics; reward-model + GRPO, DPO, Panda pick-and-place, and PettingZoo multi-agent labs.
+25. **RL Frontiers** — meta-RL, multi-task and hierarchical RL, and the field's open problems.
+
 ## Coming soon
-- **Week 5 onward** — to be added.
+- **Week 6 onward** — to be added.
 
 ---
 

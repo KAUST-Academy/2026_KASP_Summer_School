@@ -64,6 +64,17 @@
         { label: "Extra", href: "pages/Week4/extras.html" },
       ],
     },
+    {
+      id: "week5",
+      label: "Week 5",
+      pages: [
+        { label: "Day 21: Continuous Control 2 — Max Entropy RL &amp; SAC", href: "pages/Week5/w5d21.html" },
+        { label: "Day 22: The Reward Problem", href: "pages/Week5/w5d22.html" },
+        { label: "Day 23: Model-Based &amp; Offline RL", href: "pages/Week5/w5d23.html" },
+        { label: "Day 24: RL in the Real World", href: "pages/Week5/w5d24.html" },
+        { label: "Day 25: RL Frontiers", href: "pages/Week5/w5d25.html" },
+      ],
+    },
   ];
   // ---------------------------------------------------------------------------
 
