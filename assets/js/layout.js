@@ -73,6 +73,7 @@
         { label: "Day 23: Model-Based &amp; Offline RL", href: "pages/Week5/w5d23.html" },
         { label: "Day 24: RL in the Real World", href: "pages/Week5/w5d24.html" },
         { label: "Day 25: RL Frontiers", href: "pages/Week5/w5d25.html" },
+        { label: "Afternoon Sessions: Scientific Communication", href: "pages/Week5/afternoon.html" },
       ],
     },
   ];
