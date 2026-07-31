@@ -8,7 +8,7 @@ exercises (`Week*/Day*/Labs/`), which open directly in Google Colab.
 
 The site is fully responsive and works on desktop and mobile.
 
-> **Status:** Weeks 1–5 are published. The remaining weeks will be added later.
+> **Status:** Weeks 1–6 are published. The remaining weeks will be added later.
 
 ---
 
@@ -99,8 +99,21 @@ problem, model-based and offline RL, real-world deployment, and the open frontie
 24. **RL in the Real World** — RLHF, RLAIF and RLVR, plus multi-agent RL and robotics; reward-model + GRPO, DPO, Panda pick-and-place, and PettingZoo multi-agent labs.
 25. **RL Frontiers** — meta-RL, multi-task and hierarchical RL, and the field's open problems.
 
+## Week 6 — Natural Language Processing 1
+*Sun 2 Aug – Thu 6 Aug 2026 · Instructor: Naeemullah Khan*
+
+The first week of natural language processing — from text pre-processing and
+word embeddings through recurrent models and seq2seq to attention and the
+Transformer.
+
+26. **Introduction to NLP & Word Embeddings** — the classic NLP pipeline, vector space models, word2vec and GloVe; text pre-processing, N-gram feature engineering, and GloVe labs.
+27. **Recurrent Neural Networks** — recurrence, BPTT, vanishing gradients, LSTM and GRU; many-to-one / one-to-many RNNs, cell comparison, and review sentiment analysis labs.
+28. **Seq2Seq Models & Intro to Attention** — encoder-decoder architectures and the context bottleneck; Arabic–English and English–Japanese translation labs.
+29. **Attention Mechanism Deep Dive** — alignment scores, Bahdanau vs Luong attention, and attention visualisation; attention-based translation and classification labs.
+30. **Introduction to Transformers** — self-attention, multi-head attention, positional encoding, and BERT vs GPT variants; self-attention/MHA, encoder-vs-decoder, and BERT labs.
+
 ## Coming soon
-- **Week 6 onward** — to be added.
+- **Week 7 onward** — to be added.
 
 ---
 

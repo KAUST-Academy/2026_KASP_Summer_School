@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Week 6 Day 29 — Attention Mechanism Deep Dive</title>
+
+  <!-- CSS Files -->
+  <link href="../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../../assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="site-header"></div>
+
+  <main id="main">
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs animate-up">
+      <div class="container">
+        <span class="crumb-tag">Week 6 &middot; Day 29 &middot; 5 August</span>
+        <h2>Attention Mechanism Deep Dive</h2>
+        <p>How attention actually works — alignment scores, Bahdanau and Luong attention, and reading attention weights to see what the model looks at.</p>
+      </div>
+    </div>
+
+    <!-- Content Table -->
+    <div class="container mb-5 animate-up delay-100">
+      <div class="table-container">
+        <table class="custom-table">
+          <thead>
+            <tr>
+              <th scope="col" style="width: 32%">Topic</th>
+              <th scope="col">Description &amp; Objectives</th>
+              <th scope="col" style="width: 18%; text-align: center;">Resource</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Attention Mechanism</strong></td>
+              <td>Attention from first principles &mdash; queries, keys, and values; alignment scores and the softmax over the encoder states; Bahdanau vs Luong attention; visualising attention weights</td>
+              <td class="text-center"><a href="../../Week6/Day29_05-08_Attention_Deep_Dive/Lecture/05_Attention_Mechanism.pdf" class="table-btn" target="_blank" rel="noopener">Slides</a></td>
+            </tr>
+            <tr>
+              <td><strong>Lab: Attention Translation (Arabic&ndash;English)</strong></td>
+              <td>Adding an attention mechanism to the Arabic&ndash;English seq2seq translator and inspecting the learned alignments</td>
+              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week6/Day29_05-08_Attention_Deep_Dive/Labs/Attention_Mechanism_Arabic_English.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+            </tr>
+            <tr>
+              <td><strong>Lab: Attention Translation (Japanese&ndash;English)</strong></td>
+              <td>Adding an attention mechanism to the Japanese&ndash;English seq2seq translator and inspecting the learned alignments</td>
+              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week6/Day29_05-08_Attention_Deep_Dive/Labs/Attention_Mechanism_Japanese_English.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+            </tr>
+            <tr>
+              <td><strong>Lab: Attention-Based Classifier</strong></td>
+              <td>A text classifier built around attention pooling &mdash; using attention weights to explain predictions</td>
+              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week6/Day29_05-08_Attention_Deep_Dive/Labs/attention-based-classifier.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="../../assets/js/layout.js"></script>
+  <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../assets/vendor/aos/aos.js"></script>
+  <script src="../../assets/js/main.js"></script>
+
+</body>
+
+</html>

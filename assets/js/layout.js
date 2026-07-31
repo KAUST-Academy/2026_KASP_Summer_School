@@ -76,6 +76,17 @@
         { label: "Afternoon Sessions: Scientific Communication", href: "pages/Week5/afternoon.html" },
       ],
     },
+    {
+      id: "week6",
+      label: "Week 6",
+      pages: [
+        { label: "Day 26: Introduction to NLP &amp; Word Embeddings", href: "pages/Week6/w6d26.html" },
+        { label: "Day 27: Recurrent Neural Networks", href: "pages/Week6/w6d27.html" },
+        { label: "Day 28: Seq2Seq Models &amp; Intro to Attention", href: "pages/Week6/w6d28.html" },
+        { label: "Day 29: Attention Mechanism Deep Dive", href: "pages/Week6/w6d29.html" },
+        { label: "Day 30: Introduction to Transformers", href: "pages/Week6/w6d30.html" },
+      ],
+    },
   ];
   // ---------------------------------------------------------------------------
 
