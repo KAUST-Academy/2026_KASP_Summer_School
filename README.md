@@ -8,7 +8,7 @@ exercises (`Week*/Day*/Labs/`), which open directly in Google Colab.
 
 The site is fully responsive and works on desktop and mobile.
 
-> **Status:** Weeks 1–6 are published. The remaining weeks will be added later.
+> **Status:** Weeks 1–7 are published. The remaining weeks will be added later.
 
 ---
 
@@ -112,8 +112,28 @@ Transformer.
 29. **Attention Mechanism Deep Dive** — alignment scores, Bahdanau vs Luong attention, and attention visualisation; attention-based translation and classification labs.
 30. **Introduction to Transformers** — self-attention, multi-head attention, positional encoding, and BERT vs GPT variants; self-attention/MHA, encoder-vs-decoder, and BERT labs.
 
+## Week 7 — Natural Language Processing 2
+*Sun 9 Aug – Thu 13 Aug 2026 · Instructor: Naeemullah Khan*
+
+From the Transformer to the modern LLM stack — pretraining and scaling,
+fine-tuning and alignment, reasoning models, and efficient serving.
+
+31. **Large Language Models** — pretraining as self-supervision, masked vs causal LM objectives, and scaling laws; BERT-vs-T5 question answering and LLaMA 3.2 conversational labs.
+32. **Fine-Tuning LLMs & RLHF** — SFT, PEFT with LoRA and QLoRA, and RLHF for alignment; QLoRA, Transformer fine-tuning, and mBART translation labs, plus prompting as an extra.
+33. **Large Reasoning Models** — reasoning vs pattern matching, the leading LRMs, and reasoning techniques; GRPO training of Qwen3-4B plus a reasoning lab marked `NEEDS WORK`, with the GRPO/GSPO deck as an extra.
+34. **Transformers: 2017 vs 2026** — multimodal LLMs, mixture-of-experts, and attention at scale; a from-scratch attention/MoE lab marked `NEEDS WORK`, with the MoE deep dive as an extra.
+35. **Inference Optimisation** — knowledge distillation and quantization for cheap serving; a quantization/distillation lab marked `NEEDS WORK`, with the recent-advancements deck as an extra.
+
+> ### ⚠️ Labs marked `NEEDS WORK`
+> Three Week 7 labs carry a `_NEEDS_WORK` filename suffix and a warning banner in their first
+> cell. They were brought over from `Artificial-Intelligence-Courses/Labs/Incomplete_Labs/New_Labs`
+> and are **not ready to teach** — each is currently a solutions notebook with the theory answers
+> already filled in, so a student-facing exercise version still has to be split out, and each has
+> a couple of further fixes listed in its banner. **TAs: please finish these before delivery**, then
+> delete the banner cell and drop the suffix.
+
 ## Coming soon
-- **Week 7 onward** — to be added.
+- **Week 8 onward** — to be added.
 
 ---
 

@@ -87,6 +87,17 @@
         { label: "Day 30: Introduction to Transformers", href: "pages/Week6/w6d30.html" },
       ],
     },
+    {
+      id: "week7",
+      label: "Week 7",
+      pages: [
+        { label: "Day 31: Large Language Models", href: "pages/Week7/w7d31.html" },
+        { label: "Day 32: Fine-Tuning LLMs &amp; RLHF", href: "pages/Week7/w7d32.html" },
+        { label: "Day 33: Large Reasoning Models", href: "pages/Week7/w7d33.html" },
+        { label: "Day 34: Transformers &mdash; 2017 vs 2026", href: "pages/Week7/w7d34.html" },
+        { label: "Day 35: Inference Optimisation", href: "pages/Week7/w7d35.html" },
+      ],
+    },
   ];
   // ---------------------------------------------------------------------------
 
