@@ -113,7 +113,7 @@ Transformer.
 30. **Introduction to Transformers** — self-attention, multi-head attention, positional encoding, and BERT vs GPT variants; self-attention/MHA, encoder-vs-decoder, and BERT labs.
 
 ## Week 7 — Natural Language Processing 2
-*Sun 9 Aug – Thu 13 Aug 2026 · Instructor: Naeemullah Khan*
+*Sun 9 Aug – Thu 13 Aug 2026 · Instructor: Tanveer Hussain*
 
 From the Transformer to the modern LLM stack — pretraining and scaling,
 fine-tuning and alignment, reasoning models, and efficient serving.
