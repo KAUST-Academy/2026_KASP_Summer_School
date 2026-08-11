@@ -96,6 +96,8 @@
         { label: "Day 33: Large Reasoning Models", href: "pages/Week7/w7d33.html" },
         { label: "Day 34: Transformers &mdash; 2017 vs 2026", href: "pages/Week7/w7d34.html" },
         { label: "Day 35: Inference Optimisation", href: "pages/Week7/w7d35.html" },
+        { label: "Extra: Agentic Design", href: "pages/Week7/w7extra.html" },
+
       ],
     },
   ];
