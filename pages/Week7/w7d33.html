@@ -19,55 +19,161 @@
   <div id="site-header"></div>
 
   <main id="main">
+
     <!-- Breadcrumbs -->
     <div class="breadcrumbs animate-up">
       <div class="container">
-        <span class="crumb-tag">Week 7 &middot; Day 33 &middot; 11 August</span>
+        <span class="crumb-tag">
+          Week 7 &middot; Day 33 &middot; 11 August
+        </span>
+
         <h2>Large Reasoning Models</h2>
-        <p>Models that think before they answer — reasoning vs pattern matching, the leading reasoning models, and the techniques that produce them.</p>
+
+        <p>
+          Models that think before they answer — reasoning versus pattern matching,
+          inference-time reasoning techniques, reinforcement learning post-training,
+          and modern large reasoning models.
+        </p>
       </div>
     </div>
 
     <!-- Content Table -->
     <div class="container mb-5 animate-up delay-100">
       <div class="table-container">
+
         <table class="custom-table">
+
           <thead>
             <tr>
-              <th scope="col" style="width: 32%">Topic</th>
-              <th scope="col">Description &amp; Objectives</th>
-              <th scope="col" style="width: 18%; text-align: center;">Resource</th>
+              <th scope="col" style="width: 32%">
+                Topic
+              </th>
+
+              <th scope="col">
+                Description &amp; Objectives
+              </th>
+
+              <th scope="col" style="width: 18%; text-align: center;">
+                Resource
+              </th>
             </tr>
           </thead>
+
           <tbody>
+
+            <!-- Large Reasoning Models Lecture -->
             <tr>
-              <td><strong>Large Reasoning Models</strong></td>
-              <td>Is it reasoning or pattern matching?; the leading LRMs and what distinguishes them; reasoning techniques &mdash; chain-of-thought, self-consistency, and test-time compute</td>
-              <td class="text-center"><a href="../../Week7/Day33_11-08_Large_Reasoning_Models/Lecture/13_Large_Reasoning_Models.pdf" class="table-btn" target="_blank" rel="noopener">Slides</a></td>
+              <td>
+                <strong>Large Reasoning Models</strong>
+              </td>
+
+              <td>
+                Is it reasoning or pattern matching? The leading large reasoning
+                models and what distinguishes them; reasoning techniques including
+                chain-of-thought, self-consistency, and test-time compute.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="../../Week7/Day33_11-08_Large_Reasoning_Models/Lecture/13_Large_Reasoning_Models.pdf"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Slides
+                </a>
+              </td>
             </tr>
+
+
+            <!-- RL Post-Training Lecture -->
             <tr>
-              <td><strong>RL Post-Training: GRPO &amp; GSPO | Extra</strong></td>
-              <td>How reasoning is trained in &mdash; reinforcement learning post-training with GRPO and GSPO, and verifiable rewards</td>
-              <td class="text-center"><a href="../../Week7/Day33_11-08_Large_Reasoning_Models/Lecture/14_RL_Post_Training_GRPO_and_GSPO.pdf" class="table-btn" target="_blank" rel="noopener">Slides</a></td>
+              <td>
+                <strong>RL Post-Training: GRPO &amp; GSPO | Extra</strong>
+              </td>
+
+              <td>
+                How reasoning behavior is trained through reinforcement-learning
+                post-training, including GRPO, GSPO, group-relative advantages,
+                sequence-level optimization, and verifiable rewards.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="../../Week7/Day33_11-08_Large_Reasoning_Models/Lecture/14_RL_Post_Training_GRPO_and_GSPO.pdf"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Slides
+                </a>
+              </td>
             </tr>
+
+
+            <!-- Qwen3 GRPO Lab -->
             <tr>
-              <td><strong>Lab: Qwen3 (4B) GRPO</strong></td>
-              <td>Training reasoning behaviour into Qwen3-4B with GRPO using Unsloth &mdash; reward functions, generation-time rollouts, and memory-efficient training</td>
-              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day33_11-08_Large_Reasoning_Models/Labs/Qwen3_4B_GRPO.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+              <td>
+                <strong>Lab: Qwen3 (4B) GRPO</strong>
+              </td>
+
+              <td>
+                Training reasoning behavior into Qwen3-4B with GRPO using
+                Unsloth — reward functions, generation-time rollouts,
+                group-relative optimization, and memory-efficient training.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day33_11-08_Large_Reasoning_Models/Labs/Qwen3_4B_GRPO.ipynb"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Colab
+                </a>
+              </td>
             </tr>
+
+
+            <!-- Updated Large Reasoning Models Lab -->
             <tr>
-              <td><strong>Lab: Large Reasoning Models | NEEDS WORK</strong></td>
-              <td>GRPO group advantages, a rule-based math verifier, the Qwen3 thinking toggle, self-consistency majority voting, and GSPO sequence-level advantages. <strong>Unfinished &mdash; TAs, see the banner in the notebook before teaching.</strong></td>
-              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day33_11-08_Large_Reasoning_Models/Labs/Lab_06_Large_Reasoning_Models_NEEDS_WORK.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+              <td>
+                <strong>Lab: Large Reasoning Models</strong>
+              </td>
+
+              <td>
+                A hands-on journey from chain-of-thought to modern reasoning
+                post-training. Explore self-consistency and Tree-of-Thought,
+                build a rule-based math verifier, compute GRPO group-relative
+                advantages, examine GSPO sequence-level optimization, experiment
+                with the Qwen3 thinking toggle, and study reasoning failure modes.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day33_11-08_Large_Reasoning_Models/Labs/Lab_06_Large_Reasoning_Models_Updated%20%282%29.ipynb"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Colab
+                </a>
+              </td>
             </tr>
+
           </tbody>
+
         </table>
+
       </div>
     </div>
+
   </main>
 
   <div id="site-footer"></div>
 
+  <!-- JS Files -->
   <script src="../../assets/js/layout.js"></script>
   <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../../assets/vendor/aos/aos.js"></script>
