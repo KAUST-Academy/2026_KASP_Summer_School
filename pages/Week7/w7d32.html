@@ -19,65 +19,271 @@
   <div id="site-header"></div>
 
   <main id="main">
+
     <!-- Breadcrumbs -->
     <div class="breadcrumbs animate-up">
       <div class="container">
-        <span class="crumb-tag">Week 7 &middot; Day 32 &middot; 10 August</span>
+        <span class="crumb-tag">
+          Week 7 &middot; Day 32 &middot; 10 August
+        </span>
+
         <h2>Fine-Tuning LLMs &amp; RLHF</h2>
-        <p>Adapting a pretrained model to your task — supervised fine-tuning, parameter-efficient methods (LoRA and QLoRA), and alignment with RLHF.</p>
+
+        <p>
+          Adapting a pretrained model to your task — supervised fine-tuning,
+          parameter-efficient methods (LoRA and QLoRA), and alignment with RLHF.
+        </p>
       </div>
     </div>
 
     <!-- Content Table -->
     <div class="container mb-5 animate-up delay-100">
       <div class="table-container">
+
         <table class="custom-table">
+
           <thead>
             <tr>
               <th scope="col" style="width: 32%">Topic</th>
               <th scope="col">Description &amp; Objectives</th>
-              <th scope="col" style="width: 18%; text-align: center;">Resource</th>
+              <th scope="col" style="width: 18%; text-align: center;">
+                Resource
+              </th>
             </tr>
           </thead>
+
           <tbody>
+
+            <!-- Fine-Tuning Lecture -->
             <tr>
-              <td><strong>Fine-Tuning LLMs and RLHF</strong></td>
-              <td>Supervised fine-tuning (SFT); parameter-efficient fine-tuning (PEFT) with LoRA and QLoRA; reward modeling and RLHF for alignment</td>
-              <td class="text-center"><a href="../../Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Lecture/08_Fine_Tuning_LLMs_and_RLHF.pdf" class="table-btn" target="_blank" rel="noopener">Slides</a></td>
+              <td>
+                <strong>Fine-Tuning LLMs and RLHF</strong>
+              </td>
+
+              <td>
+                Supervised fine-tuning (SFT); parameter-efficient fine-tuning
+                (PEFT) with LoRA and QLoRA; reward modeling and RLHF for alignment.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="../../Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Lecture/08_Fine_Tuning_LLMs_and_RLHF.pdf"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Slides
+                </a>
+              </td>
             </tr>
+
+
+            <!-- Prompting and RAG Lecture -->
             <tr>
-              <td><strong>Prompting &amp; RAG | Extra</strong></td>
-              <td>Getting more out of a model without training it &mdash; prompting techniques and retrieval-augmented generation</td>
-              <td class="text-center"><a href="../../Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Lecture/09_Prompting_and_RAG.pdf" class="table-btn" target="_blank" rel="noopener">Slides</a></td>
+              <td>
+                <strong>Prompting &amp; RAG | Extra</strong>
+              </td>
+
+              <td>
+                Getting more out of a model without training it &mdash;
+                prompting techniques and retrieval-augmented generation.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="../../Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Lecture/09_Prompting_and_RAG.pdf"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Slides
+                </a>
+              </td>
             </tr>
+
+
+            <!-- SFT Lab -->
             <tr>
-              <td><strong>Lab: QLoRA</strong></td>
-              <td>Parameter-efficient fine-tuning end to end &mdash; why PEFT exists, 4-bit quantized base weights, and LoRA adapters in practice</td>
-              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Labs/QLoRA.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+              <td>
+                <strong>Lab: Supervised Fine-Tuning (SFT)</strong>
+              </td>
+
+              <td>
+                Supervised fine-tuning of a pretrained language model using
+                labeled instruction-response data, followed by model evaluation.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Labs/SFT.ipynb"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Colab
+                </a>
+              </td>
             </tr>
+
+
+            <!-- PEFT Adapters + LoRA Lab -->
             <tr>
-              <td><strong>Lab: Transformer Fine-Tuning</strong></td>
-              <td>Full supervised fine-tuning of a pretrained Transformer classifier on IMDb sentiment analysis</td>
-              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Labs/Transformer_finetuning.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+              <td>
+                <strong>Lab: PEFT — Adapters &amp; LoRA</strong>
+              </td>
+
+              <td>
+                Parameter-efficient fine-tuning using adapters and LoRA,
+                including frozen-model, full fine-tuning, and PEFT comparisons.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Labs/PEFT%28Adapters%2BLORA%29.ipynb"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Colab
+                </a>
+              </td>
             </tr>
+
+
+            <!-- PEFT QLoRA Lab -->
             <tr>
-              <td><strong>Lab: mBART Fine-Tuning</strong></td>
-              <td>Fine-tuning a pretrained multilingual seq2seq model for bidirectional Arabic&ndash;English translation, scored with BLEU</td>
-              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Labs/mBART_Fine-tuning.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+              <td>
+                <strong>Lab: PEFT — QLoRA</strong>
+              </td>
+
+              <td>
+                Memory-efficient parameter-efficient fine-tuning using
+                quantized base-model weights together with trainable LoRA adapters.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Labs/PEFT_%28Qlora%29.ipynb"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Colab
+                </a>
+              </td>
             </tr>
+
+
+            <!-- Existing QLoRA Lab -->
             <tr>
-              <td><strong>Lab: Prompt Engineering | Extra</strong></td>
-              <td>Prompting techniques in practice &mdash; zero-shot, few-shot, and chain-of-thought patterns against a local model</td>
-              <td class="text-center"><a href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Labs/Prompt_Engineering.ipynb" class="table-btn" target="_blank" rel="noopener">Colab</a></td>
+              <td>
+                <strong>Lab: QLoRA</strong>
+              </td>
+
+              <td>
+                Parameter-efficient fine-tuning end to end &mdash;
+                why PEFT exists, 4-bit quantized base weights,
+                and LoRA adapters in practice.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Labs/QLoRA.ipynb"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Colab
+                </a>
+              </td>
             </tr>
+
+
+            <!-- Transformer Fine-Tuning Lab -->
+            <tr>
+              <td>
+                <strong>Lab: Transformer Fine-Tuning</strong>
+              </td>
+
+              <td>
+                Full supervised fine-tuning of a pretrained Transformer
+                classifier on IMDb sentiment analysis.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Labs/Transformer_finetuning.ipynb"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Colab
+                </a>
+              </td>
+            </tr>
+
+
+            <!-- mBART Fine-Tuning Lab -->
+            <tr>
+              <td>
+                <strong>Lab: mBART Fine-Tuning</strong>
+              </td>
+
+              <td>
+                Fine-tuning a pretrained multilingual seq2seq model for
+                bidirectional Arabic&ndash;English translation,
+                scored with BLEU.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Labs/mBART_Fine-tuning.ipynb"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Colab
+                </a>
+              </td>
+            </tr>
+
+
+            <!-- Prompt Engineering Lab -->
+            <tr>
+              <td>
+                <strong>Lab: Prompt Engineering | Extra</strong>
+              </td>
+
+              <td>
+                Prompting techniques in practice &mdash;
+                zero-shot, few-shot, and chain-of-thought patterns
+                against a local model.
+              </td>
+
+              <td class="text-center">
+                <a
+                  href="https://colab.research.google.com/github/KAUST-Academy/2026_KASP_Summer_School/blob/main/Week7/Day32_10-08_Fine_Tuning_LLMs_and_RLHF/Labs/Prompt_Engineering.ipynb"
+                  class="table-btn"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  Colab
+                </a>
+              </td>
+            </tr>
+
           </tbody>
+
         </table>
+
       </div>
     </div>
+
   </main>
 
   <div id="site-footer"></div>
 
+  <!-- JS Files -->
   <script src="../../assets/js/layout.js"></script>
   <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../../assets/vendor/aos/aos.js"></script>
