@@ -8,7 +8,7 @@ exercises (`Week*/Day*/Labs/`), which open directly in Google Colab.
 
 The site is fully responsive and works on desktop and mobile.
 
-> **Status:** Weeks 1–7 are published. The remaining weeks will be added later.
+> **Status:** Weeks 1–8 are published.
 
 ---
 
@@ -124,8 +124,17 @@ fine-tuning and alignment, reasoning models, and efficient serving.
 34. **Transformers: 2017 vs 2026** — multimodal LLMs, mixture-of-experts, and attention at scale; a from-scratch attention/MoE lab with the MoE deep dive as an extra.
 35. **Inference Optimisation** — knowledge distillation and quantization for cheap serving; a quantization/distillation lab marked with the recent-advancements deck as an extra.
 
-## Coming soon
-- **Week 8 onward** — to be added.
+## Week 8 — Advanced NLP Applications
+*Sun 16 Aug – Thu 20 Aug 2026 · Instructor: Salman Khan*
+
+Recent NLP applications and deployment-facing topics, from conversational LLM
+fine-tuning to multimodal systems, agentic AI, and audio processing.
+
+36. **NLP Recent Advancements** — open-weight LLMs, efficient attention, tokenizer-free modeling, and conversational fine-tuning with LLaMA 3.2, Unsloth, and LoRA.
+37. **Multimodal NLP** — connecting language models with images and other modalities for richer input and output tasks.
+38. **Agentic AI** — LLM agents, tool use, planning loops, memory, and reliability considerations.
+39. **Audio Processing Part 1** — audio signal foundations, speech representations, and the basics of speech-language pipelines.
+40. **Audio Processing Part 2** — advanced audio workflows and integration between speech processing and language models.
 
 ---
 
