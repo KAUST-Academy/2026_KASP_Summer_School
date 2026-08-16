@@ -124,14 +124,6 @@ fine-tuning and alignment, reasoning models, and efficient serving.
 34. **Transformers: 2017 vs 2026** — multimodal LLMs, mixture-of-experts, and attention at scale; a from-scratch attention/MoE lab marked `NEEDS WORK`, with the MoE deep dive as an extra.
 35. **Inference Optimisation** — knowledge distillation and quantization for cheap serving; a quantization/distillation lab marked `NEEDS WORK`, with the recent-advancements deck as an extra.
 
-> ### ⚠️ Labs marked `NEEDS WORK`
-> Three Week 7 labs carry a `_NEEDS_WORK` filename suffix and a warning banner in their first
-> cell. They were brought over from `Artificial-Intelligence-Courses/Labs/Incomplete_Labs/New_Labs`
-> and are **not ready to teach** — each is currently a solutions notebook with the theory answers
-> already filled in, so a student-facing exercise version still has to be split out, and each has
-> a couple of further fixes listed in its banner. **TAs: please finish these before delivery**, then
-> delete the banner cell and drop the suffix.
-
 ## Coming soon
 - **Week 8 onward** — to be added.
 
