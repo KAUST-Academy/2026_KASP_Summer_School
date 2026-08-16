@@ -120,9 +120,9 @@ fine-tuning and alignment, reasoning models, and efficient serving.
 
 31. **Large Language Models** — pretraining as self-supervision, masked vs causal LM objectives, and scaling laws; BERT-vs-T5 question answering and LLaMA 3.2 conversational labs.
 32. **Fine-Tuning LLMs & RLHF** — SFT, PEFT with LoRA and QLoRA, and RLHF for alignment; QLoRA, Transformer fine-tuning, and mBART translation labs, plus prompting as an extra.
-33. **Large Reasoning Models** — reasoning vs pattern matching, the leading LRMs, and reasoning techniques; GRPO training of Qwen3-4B plus a reasoning lab marked `NEEDS WORK`, with the GRPO/GSPO deck as an extra.
-34. **Transformers: 2017 vs 2026** — multimodal LLMs, mixture-of-experts, and attention at scale; a from-scratch attention/MoE lab marked `NEEDS WORK`, with the MoE deep dive as an extra.
-35. **Inference Optimisation** — knowledge distillation and quantization for cheap serving; a quantization/distillation lab marked `NEEDS WORK`, with the recent-advancements deck as an extra.
+33. **Large Reasoning Models** — reasoning vs pattern matching, the leading LRMs, and reasoning techniques; GRPO training of Qwen3-4B plus a reasoning lab with the GRPO/GSPO deck as an extra.
+34. **Transformers: 2017 vs 2026** — multimodal LLMs, mixture-of-experts, and attention at scale; a from-scratch attention/MoE lab with the MoE deep dive as an extra.
+35. **Inference Optimisation** — knowledge distillation and quantization for cheap serving; a quantization/distillation lab marked with the recent-advancements deck as an extra.
 
 ## Coming soon
 - **Week 8 onward** — to be added.
