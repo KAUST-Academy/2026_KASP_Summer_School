@@ -109,6 +109,7 @@
         { label: "Day 38: Agentic AI", href: "pages/Week8/w8d38.html" },
         { label: "Day 39: Audio Processing Part 1", href: "pages/Week8/w8d39.html" },
         { label: "Day 40: Audio Processing Part 2", href: "pages/Week8/w8d40.html" },
+        { label: "Extra", href: "pages/Week8/extras.html" },
       ],
     },
   ];
